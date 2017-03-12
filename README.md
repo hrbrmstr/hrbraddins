@@ -7,8 +7,9 @@ The following functions are implemented:
 
 -   `bare_combine`: Turn a selection of comma-separated bare strings into a - `base::combine`: statement
 -   `bare_rename`: Turn a selection of comma-separated bare strings into a `dplyr::rename` statement
+-   `join_rows`: Join `cr`/`lf`-separated selected rows of text into a single space-separated row
 
-### More Info
+### Bare Rename
 
 The RStudio Addins menu selection "Bare Rename" will take a text selection and make it into `dplyr::rename()` statement For example:
 
@@ -24,6 +25,8 @@ will be converted to:
 
 **NOTE**: not all backtick-edge cases are handled (yet).
 
+### Bare Combine
+
 Similarly, the RStudio Addins menu selection "Bare Combine" will take a text selection and make it into a `c()` statement. For example:
 
     a,b c,d,e f
@@ -37,6 +40,8 @@ will be converted to:
     c("a", "b c", "d", "e f")
 
 **NOTE**: not all double-quote edge cases are handled (yet).
+
+### Join Rows
 
 Finally, unless I'm missing something, RStudio doesn't have a "join rows" option, so you can use the RStudio Addins menu selection "Join Rows" to do just that. So:
 
