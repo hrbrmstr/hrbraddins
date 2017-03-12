@@ -1,8 +1,9 @@
 ---
 output: rmarkdown::github_document
 ---
-[![Travis-CI Build Status](https://travis-ci.org/.svg?branch=master)](https://travis-ci.org/) 
-[![Coverage Status](https://img.shields.io/codecov/c/github//master.svg)](https://codecov.io/github/?branch=master)
+[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/0.1.0/active.svg)](http://www.repostatus.org/#active) 
+[![codecov](https://codecov.io/gh/hrbrmstr/hrbraddins/branch/master/graph/badge.svg)](https://codecov.io/gh/hrbrmstr/hrbraddins)
+[![Travis-CI Build Status](https://travis-ci.org/hrbrmstr/hrbraddins.svg?branch=master)](https://travis-ci.org/hrbrmstr/hrbraddins)
 
 `hrbraddins` : Additional Addins for RStudio
 
