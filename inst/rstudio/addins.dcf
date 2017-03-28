@@ -1,8 +1,3 @@
-Name: Bare Rename
-Description: Turns a selected comma-separated list of strings into a dplyr::rename() statement
-Binding: bare_rename
-Interactive: false
-
 Name: Bare Combine
 Description: Turns a selected comma-separated list of strings into a base::c() statement
 Binding: bare_combine
@@ -11,4 +6,9 @@ Interactive: false
 Name: Join Rows
 Description: Join a selected set of rows into one line
 Binding: join_rows
+Interactive: false
+
+Name: Tweet Share
+Description: Share the active RStudio source tab on Twitter
+Binding: tweet_share
 Interactive: false

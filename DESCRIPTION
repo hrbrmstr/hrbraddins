@@ -15,5 +15,10 @@ Depends:
     R (>= 3.2.0)
 Imports:
     rstudioapi (>= 0.4),
-    utils
+    utils,
+    magick,
+    pdftools,
+    rmarkdown,
+    gistr,
+    knitr
 RoxygenNote: 6.0.1

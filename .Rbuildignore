@@ -9,3 +9,4 @@
 ^README_files$
 ^doc$
 ^codecov\.yml$
+^\.httr-oauth$
