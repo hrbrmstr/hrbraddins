@@ -6,24 +6,13 @@
 The following functions are implemented:
 
 -   `bare_combine`: Turn a selection of comma-separated bare strings into a - `base::combine`: statement
--   `bare_rename`: Turn a selection of comma-separated bare strings into a `dplyr::rename` statement
 -   `join_rows`: Join `cr`/`lf`-separated selected rows of text into a single space-separated row
 
-### Bare Rename
+### Twitter RANTS!
 
-The RStudio Addins menu selection "Bare Rename" will take a text selection and make it into `dplyr::rename()` statement For example:
+Use the Addins menu to bring up a dialogue for Twitter Rants!
 
-    a,b c,d,e f
-
-or
-
-    a, b c, d, e f
-
-will be converted to:
-
-    dplyr::rename(a, `b c`, d, `e f`)
-
-**NOTE**: not all backtick-edge cases are handled (yet).
+![](rant.jpg)
 
 ### Bare Combine
 

@@ -12,6 +12,12 @@ The following functions are implemented:
 - `bare_combine`:	Turn a selection of comma-separated bare strings into a - `base::combine`: statement
 - `join_rows`:	Join `cr`/`lf`-separated selected rows of text into a single space-separated row
 
+### Twitter RANTS!
+
+Use the Addins menu to bring up a dialogue for Twitter Rants!
+
+![](rant.jpg)
+
 ### Bare Combine
 
 Similarly, the RStudio Addins menu selection "Bare Combine" will take a text selection and make it into a `c()` statement. For example:
