@@ -7,4 +7,5 @@
 #' @importFrom gistr gist_create
 #' @importFrom twitteR tweet
 #' @importFrom utils read.csv
+#' @import shiny miniUI stringi
 NULL

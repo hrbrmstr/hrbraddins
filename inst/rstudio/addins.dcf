@@ -12,3 +12,8 @@ Name: Tweet Share
 Description: Share the active RStudio source tab on Twitter
 Binding: tweet_share
 Interactive: false
+
+Name: Twitter Rant!
+Description: Make it easier to annoy followers and reinforce one's entitlement.
+Binding: rantAddin
+Interactive: true
