@@ -31,7 +31,7 @@ rantAddin <- function() {
     output$output <- renderText({
       data <- reactiveData()
       if (nzchar(data) > 0) {
-        tweet_base <- stringi::stri_wrap(data, 134)
+        tweet_base <- stringi::stri_wrap(data, 134, whitespace_only = TRUE)
         paste0(sprintf("%s %d/%d", tweet_base, 1:length(tweet_base), length(tweet_base)), collapse="<br/>\n<br/>\n")
       } else {
         ""
