@@ -1,7 +1,7 @@
 Package: hrbraddins
 Type: Package
 Title: Additional Addins for RStudio
-Version: 0.1.0
+Version: 0.1.1
 Date: 2017-03-12
 Author: Bob Rudis (bob@rud.is)
 Maintainer: Bob Rudis <bob@rud.is>
@@ -23,5 +23,6 @@ Imports:
     pdftools,
     rmarkdown,
     gistr,
-    knitr
+    knitr,
+    twitteR
 RoxygenNote: 6.0.1
