@@ -5,6 +5,7 @@
 
 The following functions are implemented:
 
+-   `refresh_renviron` : Refreshes in-memory R environment variables, noting changes
 -   `bare_combine`: Turn a selection of comma-separated bare strings into a - `base::combine`: statement
 -   `join_rows`: Join `cr`/`lf`-separated selected rows of text into a single space-separated row
 
