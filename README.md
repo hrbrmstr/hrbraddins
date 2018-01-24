@@ -1,13 +1,23 @@
 
 [![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/0.1.0/active.svg)](http://www.repostatus.org/#active) [![codecov](https://codecov.io/gh/hrbrmstr/hrbraddins/branch/master/graph/badge.svg)](https://codecov.io/gh/hrbrmstr/hrbraddins) [![Travis-CI Build Status](https://travis-ci.org/hrbrmstr/hrbraddins.svg?branch=master)](https://travis-ci.org/hrbrmstr/hrbraddins)
 
-`hrbraddins` : Additional Addins for RStudio
+# hrbraddins
+
+Additional Addins for RStudio
+
+## Description
+
+Experiments, mostly. *Please* take the code and use it! This package will NEVER see CRAN. I don't even need credit. If you find something useful and are willing to round out the corners, it's all yours.
+
+## What's in the tin?
 
 The following functions are implemented:
 
--   `refresh_renviron` : Refreshes in-memory R environment variables, noting changes
--   `bare_combine`: Turn a selection of comma-separated bare strings into a - `base::combine`: statement
--   `join_rows`: Join `cr`/`lf`-separated selected rows of text into a single space-separated row
+- `refresh_renviron` : Refreshes in-memory R environment variables, noting changes
+- `bare_combine`: Turn a selection of comma-separated bare strings into a - `base::combine`: statement
+- `join_rows`:  Join `cr`/`lf`-separated selected rows of text into a single space-separated row
+
+## Examples
 
 ### Twitter RANTS!
 
