@@ -22,3 +22,8 @@ Name: Twitter Rant!
 Description: Make it easier to annoy followers and reinforce one's entitlement.
 Binding: rantAddin
 Interactive: true
+
+Name: Enslave
+Description: Run a code selection as an RStudio background job task
+Binding: enslave
+Interactive: false
