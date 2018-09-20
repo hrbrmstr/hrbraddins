@@ -27,3 +27,8 @@ Name: Enslave
 Description: Run a code selection as an RStudio background job task
 Binding: enslave
 Interactive: false
+
+Name: CleanAndGo
+Description: Cleanse the environment and execute the script
+Binding: cleanAndGo
+Interactive: false
