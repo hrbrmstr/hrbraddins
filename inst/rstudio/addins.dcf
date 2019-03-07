@@ -32,3 +32,8 @@ Name: CleanAndGo
 Description: Cleanse the environment and execute the script
 Binding: cleanAndGo
 Interactive: false
+
+Name: Zap Gremlins
+Description: Find R source files with non-ASCII characters
+Binding: zapGremlins
+Interactive: false
