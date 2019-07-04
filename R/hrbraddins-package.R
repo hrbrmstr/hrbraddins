@@ -11,4 +11,5 @@
 #' @importFrom dplyr as_data_frame bind_cols bind_rows left_join filter full_join
 #' @importFrom tidyr gather
 #' @importFrom uuid UUIDgenerate
+#' @import tinytest rprojroot
 NULL

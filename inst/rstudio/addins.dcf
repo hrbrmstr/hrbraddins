@@ -1,3 +1,8 @@
+Name: Tiny Test Package
+Description: Run {tinytest} on a pkg
+Binding: run_tiny_test
+Interactive: false
+
 Name: Refresh .Renviron
 Description: Refreshes the in-memory environment variables from ~/.Renviron without requiring a restart
 Binding: refresh_renviron

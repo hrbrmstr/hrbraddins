@@ -29,5 +29,7 @@ Imports:
     rtweet,
     dplyr,
     tidyr,
-    uuid
+    uuid,
+    tinytest,
+    rprojroot
 RoxygenNote: 6.1.1
