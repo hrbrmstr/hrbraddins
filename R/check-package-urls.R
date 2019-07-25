@@ -34,7 +34,7 @@ check_package_urls <- function() {
     . } %>%
     dplyr::mutate(status = purrr::map_dbl(URL, ~{
       .pb$tick()$print()
-      tryCatch(httr::status_code(m_GET(url = .x)), error = 599)
+      tryCatch(httr::status_code(m_GET(url = .x)), error = function(x) 599)
     })) %>%
     janitor::clean_names() %>%
     tibble::as_tibble() %>%
