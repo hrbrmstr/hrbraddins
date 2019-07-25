@@ -3,6 +3,8 @@
 #' @export
 check_package_urls <- function() {
 
+  .pb <- NULL
+
   m_GET <- memoise::memoise(httr::GET) # avoid checking URL more than once
 
   tc <- function(x, where = NULL) {
