@@ -1,5 +1,18 @@
 
-[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/0.1.0/active.svg)](http://www.repostatus.org/#active) [![codecov](https://codecov.io/gh/hrbrmstr/hrbraddins/branch/master/graph/badge.svg)](https://codecov.io/gh/hrbrmstr/hrbraddins) [![Travis-CI Build Status](https://travis-ci.org/hrbrmstr/hrbraddins.svg?branch=master)](https://travis-ci.org/hrbrmstr/hrbraddins)
+[![Project Status: Active – The project has reached a stable, usable
+state and is being actively
+developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active)
+[![Signed
+by](https://img.shields.io/badge/Keybase-Verified-brightgreen.svg)](https://keybase.io/hrbrmstr)
+![Signed commit
+%](https://img.shields.io/badge/Signed_Commits-35.7%25-lightgrey.svg)
+[![Linux build
+Status](https://travis-ci.org/hrbrmstr/hrbraddins.svg?branch=master)](https://travis-ci.org/hrbrmstr/hrbraddins)
+[![Coverage
+Status](https://codecov.io/gh/hrbrmstr/hrbraddins/branch/master/graph/badge.svg)](https://codecov.io/gh/hrbrmstr/hrbraddins)
+![Minimal R
+Version](https://img.shields.io/badge/R%3E%3D-3.2.0-blue.svg)
+![License](https://img.shields.io/badge/License-MIT-blue.svg)
 
 # hrbraddins
 
@@ -7,57 +20,54 @@ Additional Addins for RStudio
 
 ## Description
 
-Experiments, mostly. *Please* take the code and use it! This package will NEVER see CRAN. I don't even need credit. If you find something useful and are willing to round out the corners, it's all yours.
+Experiments, mostly. *Please* take the code and use it\! This package
+will NEVER see CRAN. I don’t even need credit. If you find something
+useful and are willing to round out the corners, it’s all yours.
 
-## What's in the tin?
+## What’s in the tin?
 
 The following functions are implemented:
 
-- `refresh_renviron` : Refreshes in-memory R environment variables, noting changes
-- `bare_combine`: Turn a selection of comma-separated bare strings into a - `base::combine`: statement
-- `join_rows`:  Join `cr`/`lf`-separated selected rows of text into a single space-separated row
-
-## Examples
-
-### Twitter RANTS!
-
-Use the Addins menu to bring up a dialogue for Twitter Rants!
-
-![](rant.jpg)
-
-### Bare Combine
-
-Similarly, the RStudio Addins menu selection "Bare Combine" will take a text selection and make it into a `c()` statement. For example:
-
-    a,b c,d,e f
-
-or
-
-    a, b c, d, e f
-
-will be converted to:
-
-    c("a", "b c", "d", "e f")
-
-**NOTE**: not all double-quote edge cases are handled (yet).
-
-### Join Rows
-
-Finally, unless I'm missing something, RStudio doesn't have a "join rows" option, so you can use the RStudio Addins menu selection "Join Rows" to do just that. So:
-
-    a
-    b
-    c
-    d
-
-becomes:
-
-    a b c d
-
-The best way to find out if I'm wrong about that is by doing this tho since the internet will gladly tell me if I'm wrong.
+  - `bare_combine`: Turn a selection of comma-separated bare strings
+    into a base::combine statement
+  - `check_package_urls`: Check package URLs
+  - `cleanAndGo`: Clean the environment and run the active script
+  - `enslave`: Run a selection as an RStudio background job
+  - `join_rows`: Join cr/lf-separated selected rows of text into a
+    single space-separated row
+  - `rantAddin`: Make it easier to annoy followers and reinforce one’s
+    entitlement.
+  - `refresh_renviron`: Refreshes in-memory environment variables (if it
+    exists)
+  - `tweet_share`: Share the active RStudio source tab on Twitter
+  - `zapGremlins`: Find R source files with non-ASCII characters
 
 ### Installation
 
 ``` r
-devtools::install_github("hrbrmstr/hrbraddins")
+remotes::install_git("https://git.rud.is/hrbrmstr/hrbraddins.git")
+# or
+remotes::install_git("https://git.sr.ht/~hrbrmstr/hrbraddins")
+# or
+remotes::install_gitlab("hrbrmstr/hrbraddins")
+# or
+remotes::install_bitbucket("hrbrmstr/hrbraddins")
+# or
+remotes::install_github("hrbrmstr/hrbraddins")
 ```
+
+NOTE: To use the ‘remotes’ install options you will need to have the
+[{remotes} package](https://github.com/r-lib/remotes) installed.
+
+## tdigest Metrics
+
+| Lang | \# Files |  (%) | LoC |  (%) | Blank lines |  (%) | \# Lines |  (%) |
+| :--- | -------: | ---: | --: | ---: | ----------: | ---: | -------: | ---: |
+| R    |       13 | 0.93 | 180 | 0.97 |          84 | 0.84 |       72 | 0.75 |
+| Rmd  |        1 | 0.07 |   5 | 0.03 |          16 | 0.16 |       24 | 0.25 |
+
+## Code of Conduct
+
+Please note that this project is released with a Contributor Code of
+Conduct. By participating in this project you agree to abide by its
+terms.

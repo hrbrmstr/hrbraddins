@@ -2,12 +2,12 @@ Package: hrbraddins
 Type: Package
 Title: Additional Addins for RStudio
 Version: 0.2.0
-Date: 2017-08-02
+Date: 2018-07-25
 Author: Bob Rudis (bob@rud.is)
 Maintainer: Bob Rudis <bob@rud.is>
 Description: Provides additional addins for RStudio.
-URL: https://github.com/hrbrmstr/hrbraddins
-BugReports: https://github.com/hrbrmstr/hrbraddins/issues
+URL: https://gitlab.com/hrbrmstr/hrbraddins
+BugReports: https://gitlab.com/hrbrmstr/hrbraddins/issues
 License: MIT + file LICENSE
 Suggests: testthat,
     covr
@@ -31,5 +31,7 @@ Imports:
     tidyr,
     uuid,
     tinytest,
-    rprojroot
+    rprojroot,
+    memoise,
+    tools
 RoxygenNote: 6.1.1

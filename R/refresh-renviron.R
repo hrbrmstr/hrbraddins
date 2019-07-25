@@ -7,7 +7,7 @@ refresh_renviron <- function() {
 
   renv <- path.expand("~/.Renviron")
 
-  curr_env <- gather(as_data_frame(as.list(Sys.getenv())), env_var, value)
+  curr_env <- gather(as_tibble(as.list(Sys.getenv())), env_var, value)
 
   if (file.exists(renv)) readRenviron(renv)
 
