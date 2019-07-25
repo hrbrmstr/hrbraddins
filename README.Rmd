@@ -11,7 +11,7 @@ hrbrpkghelpr::stinking_badges()
 
 # hrbraddins
 
-Additional Addins for RStudio
+Moar Addins for RStudio
 
 ## Description
 

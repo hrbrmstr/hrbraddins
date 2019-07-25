@@ -16,7 +16,7 @@ Version](https://img.shields.io/badge/R%3E%3D-3.2.0-blue.svg)
 
 # hrbraddins
 
-Additional Addins for RStudio
+Moar Addins for RStudio
 
 ## Description
 
@@ -39,12 +39,15 @@ The following functions are implemented:
     entitlement.
   - `refresh_renviron`: Refreshes in-memory environment variables (if it
     exists)
+  - `run_tiny_test`: Run tinytest on a package
   - `tweet_share`: Share the active RStudio source tab on Twitter
   - `zapGremlins`: Find R source files with non-ASCII characters
 
 ### Installation
 
 ``` r
+install.packages("hrbraddins", repos = "https://cinc.rud.is")
+# or
 remotes::install_git("https://git.rud.is/hrbrmstr/hrbraddins.git")
 # or
 remotes::install_git("https://git.sr.ht/~hrbrmstr/hrbraddins")
@@ -63,8 +66,8 @@ NOTE: To use the ‘remotes’ install options you will need to have the
 
 | Lang | \# Files |  (%) | LoC |  (%) | Blank lines |  (%) | \# Lines |  (%) |
 | :--- | -------: | ---: | --: | ---: | ----------: | ---: | -------: | ---: |
-| R    |       13 | 0.93 | 180 | 0.97 |          84 | 0.85 |       72 | 0.75 |
-| Rmd  |        1 | 0.07 |   5 | 0.03 |          15 | 0.15 |       24 | 0.25 |
+| R    |       14 | 0.93 | 184 | 0.97 |          83 | 0.85 |       79 | 0.77 |
+| Rmd  |        1 | 0.07 |   5 | 0.03 |          15 | 0.15 |       24 | 0.23 |
 
 ## Code of Conduct
 
