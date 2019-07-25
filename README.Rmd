@@ -31,8 +31,7 @@ hrbrpkghelpr::describe_ingredients()
 hrbrpkghelpr::install_block()
 ```
 
-
-## tdigest Metrics
+## hrbraddins Metrics
 
 ```{r cloc, echo=FALSE}
 cloc::cloc_pkg_md()
