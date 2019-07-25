@@ -4,9 +4,17 @@
 \name{hrbraddins}
 \alias{hrbraddins}
 \alias{hrbraddins-package}
-\title{Additional Addins for RStudio}
+\title{Moar Addins for RStudio}
 \description{
-Additional Addins for RStudio
+Provides additional addins for RStudio.
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://gitlab.com/hrbrmstr/hrbraddins}
+  \item Report bugs at \url{https://gitlab.com/hrbrmstr/hrbraddins/issues}
+}
+
 }
 \author{
 Bob Rudis (bob@rud.is)

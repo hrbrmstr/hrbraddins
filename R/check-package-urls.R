@@ -1,9 +1,7 @@
 #' Check package URLs
 #'
-#' @param just_pass_or_fail if `TRUE` (default is `FALSE`) just return `TRUE` if
-#'        all the URL checks result in HTTP `200` status codes.
 #' @export
-check_package_urls <- function(just_pass_or_fail = FALSE) {
+check_package_urls <- function() {
 
   m_GET <- memoise::memoise(httr::GET) # avoid checking URL more than once
 
@@ -37,8 +35,7 @@ check_package_urls <- function(just_pass_or_fail = FALSE) {
       tryCatch(httr::status_code(m_GET(url = .x)), error = 599)
     })) %>%
     janitor::clean_names() %>%
-    tibble::as_tibble() -> out
-
-  if (just_pass_or_fail) all(out$status == 200) else print(out, nrow(out))
+    tibble::as_tibble() %>%
+    print(nrow(.))
 
 }

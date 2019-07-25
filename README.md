@@ -5,7 +5,7 @@ developed.](https://www.repostatus.org/badges/latest/active.svg)](https://www.re
 [![Signed
 by](https://img.shields.io/badge/Keybase-Verified-brightgreen.svg)](https://keybase.io/hrbrmstr)
 ![Signed commit
-%](https://img.shields.io/badge/Signed_Commits-35.7%25-lightgrey.svg)
+%](https://img.shields.io/badge/Signed_Commits-100%25-lightgrey.svg)
 [![Linux build
 Status](https://travis-ci.org/hrbrmstr/hrbraddins.svg?branch=master)](https://travis-ci.org/hrbrmstr/hrbraddins)
 [![Coverage
@@ -59,12 +59,12 @@ remotes::install_github("hrbrmstr/hrbraddins")
 NOTE: To use the ‘remotes’ install options you will need to have the
 [{remotes} package](https://github.com/r-lib/remotes) installed.
 
-## tdigest Metrics
+## hrbraddins Metrics
 
 | Lang | \# Files |  (%) | LoC |  (%) | Blank lines |  (%) | \# Lines |  (%) |
 | :--- | -------: | ---: | --: | ---: | ----------: | ---: | -------: | ---: |
-| R    |       13 | 0.93 | 180 | 0.97 |          84 | 0.84 |       72 | 0.75 |
-| Rmd  |        1 | 0.07 |   5 | 0.03 |          16 | 0.16 |       24 | 0.25 |
+| R    |       13 | 0.93 | 180 | 0.97 |          84 | 0.85 |       72 | 0.75 |
+| Rmd  |        1 | 0.07 |   5 | 0.03 |          15 | 0.15 |       24 | 0.25 |
 
 ## Code of Conduct
 

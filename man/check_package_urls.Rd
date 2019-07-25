@@ -4,11 +4,7 @@
 \alias{check_package_urls}
 \title{Check package URLs}
 \usage{
-check_package_urls(just_pass_or_fail = FALSE)
-}
-\arguments{
-\item{just_pass_or_fail}{if `TRUE` (default is `FALSE`) just return `TRUE` if
-all the URL checks result in HTTP `200` status codes.}
+check_package_urls()
 }
 \description{
 Check package URLs

@@ -1,8 +1,8 @@
 Package: hrbraddins
 Type: Package
-Title: Additional Addins for RStudio
-Version: 0.2.0
-Date: 2018-07-25
+Title: Moar Addins for RStudio
+Version: 0.3.0
+Date: 2019-07-25
 Author: Bob Rudis (bob@rud.is)
 Maintainer: Bob Rudis <bob@rud.is>
 Description: Provides additional addins for RStudio.
@@ -33,5 +33,9 @@ Imports:
     tinytest,
     rprojroot,
     memoise,
-    tools
+    tools,
+    httr,
+    janitor,
+    purrr, 
+    tibble
 RoxygenNote: 6.1.1
