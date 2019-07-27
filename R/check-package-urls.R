@@ -10,6 +10,7 @@ tc <- function(x, where = NULL) {
 #' @note This uses non-exported functions from {tools}, one of which
 #'       relies on the `pdftohtml` binary being present on the
 #'       system running this function.
+#' @references [A deliberately bad URL](https://a.deliberately.bad.uurl/)
 #' @export
 check_package_urls <- function() {
 
@@ -48,6 +49,7 @@ check_package_urls <- function() {
       TRUE ~ NA
     )) %>%
     tibble::as_tibble() %>%
+    dplyr::arrange(dplyr::desc(status), parent, url) %>%
     print(nrow(.))
 
 }

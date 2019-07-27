@@ -14,3 +14,6 @@ This uses non-exported functions from {tools}, one of which
       relies on the `pdftohtml` binary being present on the
       system running this function.
 }
+\references{
+[A deliberately bad URL](https://a.deliberately.bad.uurl/)
+}

@@ -66,7 +66,7 @@ NOTE: To use the ‘remotes’ install options you will need to have the
 
 | Lang | \# Files |  (%) | LoC |  (%) | Blank lines |  (%) | \# Lines |  (%) |
 | :--- | -------: | ---: | --: | ---: | ----------: | ---: | -------: | ---: |
-| R    |       14 | 0.93 | 184 | 0.97 |          83 | 0.85 |       79 | 0.77 |
+| R    |       14 | 0.93 | 184 | 0.97 |          84 | 0.85 |       79 | 0.77 |
 | Rmd  |        1 | 0.07 |   5 | 0.03 |          15 | 0.15 |       24 | 0.23 |
 
 ## Code of Conduct
