@@ -1,16 +1,19 @@
+m_GET <- memoise::memoise(httr::GET) # avoid checking URL more than once
+
+tc <- function(x, where = NULL) {
+  if (length(where)) message("- Looking in ", where, " files...")
+  tryCatch(x, error = function(e) NULL)
+}
+
 #' Check package URLs
 #'
+#' @note This uses non-exported functions from {tools}, one of which
+#'       relies on the `pdftohtml` binary being present on the
+#'       system running this function.
 #' @export
 check_package_urls <- function() {
 
   .pb <- NULL
-
-  m_GET <- memoise::memoise(httr::GET) # avoid checking URL more than once
-
-  tc <- function(x, where = NULL) {
-    if (length(where)) message("- Looking in ", where, " files...")
-    tryCatch(x, error = function(e) NULL)
-  }
 
   pkg <- tc(rprojroot::find_package_root_file())
 
@@ -34,9 +37,16 @@ check_package_urls <- function() {
     . } %>%
     dplyr::mutate(status = purrr::map_dbl(URL, ~{
       .pb$tick()$print()
-      tryCatch(httr::status_code(m_GET(url = .x)), error = function(x) 599)
+      tryCatch(
+        httr::status_code(m_GET(url = .x)),
+        error = function(x) 599
+      )
     })) %>%
     janitor::clean_names() %>%
+    dplyr::mutate(is_https = dplyr::case_when(
+      grepl("^htt", url) ~ scheme(url) == "https",
+      TRUE ~ NA
+    )) %>%
     tibble::as_tibble() %>%
     print(nrow(.))
 

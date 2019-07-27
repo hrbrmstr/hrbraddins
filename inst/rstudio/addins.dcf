@@ -1,12 +1,12 @@
 Name: Check Package URLs
 Description: Use the same methods CRAN does to validate URLs in your package
 Binding: check_package_urls
-Interactive: false
+Interactive: true
 
 Name: Tiny Test Package
 Description: Run {tinytest} on a pkg
 Binding: run_tiny_test
-Interactive: false
+Interactive: true
 
 Name: Refresh .Renviron
 Description: Refreshes the in-memory environment variables from ~/.Renviron without requiring a restart

@@ -23,6 +23,7 @@ Imports:
     magick,
     pdftools,
     rmarkdown,
+    urltools,
     gistr,
     knitr,
     twitteR,
