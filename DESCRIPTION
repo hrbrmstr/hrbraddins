@@ -1,8 +1,8 @@
 Package: hrbraddins
 Type: Package
 Title: Moar Addins for RStudio
-Version: 0.3.0
-Date: 2019-07-25
+Version: 0.4.0
+Date: 2019-07-29
 Author: Bob Rudis (bob@rud.is)
 Maintainer: Bob Rudis <bob@rud.is>
 Description: Provides additional addins for RStudio.

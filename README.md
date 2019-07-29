@@ -30,6 +30,8 @@ The following functions are implemented:
 
   - `bare_combine`: Turn a selection of comma-separated bare strings
     into a base::combine statement
+  - `bare_space_combine`: Turn a selection of space-separated bare
+    strings into a base::combine statement
   - `check_package_urls`: Check package URLs
   - `cleanAndGo`: Clean the environment and run the active script
   - `enslave`: Run a selection as an RStudio background job
@@ -64,10 +66,10 @@ NOTE: To use the ‘remotes’ install options you will need to have the
 
 ## hrbraddins Metrics
 
-| Lang | \# Files |  (%) | LoC |  (%) | Blank lines |  (%) | \# Lines |  (%) |
-| :--- | -------: | ---: | --: | ---: | ----------: | ---: | -------: | ---: |
-| R    |       14 | 0.93 | 184 | 0.97 |          84 | 0.85 |       79 | 0.77 |
-| Rmd  |        1 | 0.07 |   5 | 0.03 |          15 | 0.15 |       24 | 0.23 |
+| Lang | \# Files |  (%) | LoC |  (%) | Blank lines |  (%) | \# Lines | (%) |
+| :--- | -------: | ---: | --: | ---: | ----------: | ---: | -------: | --: |
+| R    |       15 | 0.94 | 212 | 0.98 |          97 | 0.87 |       95 | 0.8 |
+| Rmd  |        1 | 0.06 |   5 | 0.02 |          15 | 0.13 |       24 | 0.2 |
 
 ## Code of Conduct
 
