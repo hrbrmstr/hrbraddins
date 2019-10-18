@@ -28,6 +28,7 @@ Imports:
     knitr,
     twitteR,
     rtweet,
+    fs,
     dplyr,
     tidyr,
     uuid,

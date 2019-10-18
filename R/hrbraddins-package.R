@@ -17,4 +17,5 @@
 #' @importFrom tidyr gather
 #' @importFrom uuid UUIDgenerate
 #' @importFrom urltools scheme
+#' @importFrom fs path_split
 "_PACKAGE"

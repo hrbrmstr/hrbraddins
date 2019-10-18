@@ -52,3 +52,8 @@ Name: Zap Gremlins
 Description: Find R source files with non-ASCII characters
 Binding: zapGremlins
 Interactive: false
+
+Name: Path Split
+Description: Split a / path to quoted commas
+Binding: pathSplit
+Interactive: false
